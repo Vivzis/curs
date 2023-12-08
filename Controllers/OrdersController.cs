@@ -11,9 +11,11 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Kursova.Controllers
 {
+
     [Authorize]
     public class OrdersController : Controller
     {
+
         private readonly OrdersDBContext _context;
 
         public OrdersController(OrdersDBContext context)
@@ -24,9 +26,9 @@ namespace Kursova.Controllers
         // GET: Orders
         public async Task<IActionResult> Index()
         {
-              return _context.Order != null ? 
-                          View(await _context.Order.ToListAsync()) :
-                          Problem("Entity set 'OrdersDBContext.Order'  is null.");
+            return _context.Order != null ?
+                        View(await _context.Order.ToListAsync()) :
+                        Problem("Entity set 'OrdersDBContext.Order'  is null.");
         }
 
         // GET: Orders/Details/5
@@ -152,14 +154,14 @@ namespace Kursova.Controllers
             {
                 _context.Order.Remove(ordersEntity);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool OrdersEntityExists(int id)
         {
-          return (_context.Order?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Order?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
