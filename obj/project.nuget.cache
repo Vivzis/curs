@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WQ9xTewdtqxYWgrROmvcadXOnMt+4wUuIHMPN6t//hbWR837e94ZNE+IDJoGza7cSCLIzPpcTd8zVbzlsYuHAQ==",
+  "dgSpecHash": "tOCivQOBQnhO9RCtNC9cKF1EbvnioIwpNc1mlSzR11eSC4ImVwq3h7rUbAvzskRC4IuZYJEYr2fbShHnMP7s9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\malec\\OneDrive\\Робочий стіл\\Kursova\\Kursova\\Kursova\\Kursova.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malec\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\malec\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\malec\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\malec\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\malec\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\malec\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
