@@ -288,3 +288,4 @@ C:\Users\malec\OneDrive\Робочий стіл\Kursova\Kursova\Kursova\bin\Debu
 C:\Users\malec\OneDrive\Робочий стіл\Kursova\Kursova\Kursova\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\malec\OneDrive\Робочий стіл\Kursova\Kursova\Kursova\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\malec\OneDrive\Робочий стіл\Kursova\Kursova\Kursova\obj\Debug\net7.0\Kursova.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\malec\OneDrive\Робочий стіл\Kursova\Kursova\Kursova\bin\Debug\net7.0\FluentAssertions.dll
